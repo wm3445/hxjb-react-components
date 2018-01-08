@@ -1,0 +1,30 @@
+{
+  "name": "hxjb-react-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wm3445/hxjb-react-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wm3445/hxjb-react-components/issues"
+  },
+  "homepage": "https://github.com/wm3445/hxjb-react-components#readme",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
